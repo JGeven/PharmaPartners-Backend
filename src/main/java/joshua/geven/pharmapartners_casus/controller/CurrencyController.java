@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/currencies")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CurrencyController {
 
     private final CurrencyService currencyService;
